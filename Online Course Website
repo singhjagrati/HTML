@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Website</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #415884;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #2a2626;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        section {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Online Course Website</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#courses">Courses</a> |
+        <a href="#registration">Registration</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our online course platform. Explore our courses and start learning today!</p>
+    </section>
+
+    <section id="courses">
+        <h2>Courses</h2>
+        <p>Discover our available courses:</p>
+        <ul>
+            <li>Web development - Description, Schedule, Fee</li>
+            <li>Machine Learning- Description, Schedule, Fee</li>
+            <li>Data Analytics- Description, Schedule, Fee</li>
+            <li>Java- Description, Schedule, Fee</li>
+            <li>Python- Description, Schedule, Fee</li>
+            <li>Artificial Intelligence- Description, Schedule, Fee</li>
+            <!-- Add more courses as needed -->
+        </ul>
+    </section>
+
+    <section id="registration">
+        <h2>Registration</h2>
+        <p>Register for courses:</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="course">Select Course:</label>
+            <select id="course" name="course">
+                <option value="Web development">Course 1</option>
+                <option value="Machine Learning">Course 2</option>
+                <option value="Data Analytics">Course 3</option>
+                <option value="Java">Course 4</option>
+                <option value="Python">Course 5</option>
+                <option value="Artificial Intelligence">Course 6</option>
+                
+                <!-- Add more courses as needed -->
+            </select><br><br>
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Contact us for inquiries:</p>
+        <address>
+            Email: jagratisingh1202@gmail.com<br>
+            Phone: 123-456-7890<br>
+            Address: Mathura City, India
+        </address>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn about our organization, instructors, and mission.</p>
+        <p>We provide a courses certificates,that helps you in your resume</p>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Online Course Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
